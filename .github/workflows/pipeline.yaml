@@ -43,8 +43,8 @@ jobs:
           # trigger the tests here
           echo 'Running unit tests'
           cd hello-world
-          pnpm install
-          pnpm run test
+          npm install
+          npm run test
 
   delete-feature:
     if: startsWith(github.event.ref, 'feature') && github.event_name == 'delete'
