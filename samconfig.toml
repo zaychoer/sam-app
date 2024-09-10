@@ -12,6 +12,5 @@ confirm_changeset = true
 s3_prefix = "sam-app"
 region = "ap-southeast-1"
 image_repositories = []
-resolve_s3 = true
 watch = true
 warm_containers = "EAGER"
