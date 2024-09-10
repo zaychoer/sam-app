@@ -208,3 +208,8 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/osx,node,linux,windows,sam
 # Ignore node_modules
 **/node_modules/
+
+
+.aws-sam
+samconfig.toml
+target
